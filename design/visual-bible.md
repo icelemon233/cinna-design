@@ -24,7 +24,7 @@ Clouds over a dessert counter:
 5. Decorative assets must be original and theme-specific: clouds, sugar stars, pastry dots, ribbons, recipe paper.
 6. Dense application screens must remain readable. Sweetness is an accent, not visual noise.
 7. Documentation and generated examples must use source-of-truth tokens, not copied hex values.
-8. Do not copy the Animal Island UI font recipe. Cinna's type mood is lighter, airier, and more handwritten.
+8. Keep Cinna's type mood original: light, airy, soft, and compatible with real application UI.
 
 ## First Signature Component
 
