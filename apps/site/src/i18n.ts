@@ -78,7 +78,7 @@ export const siteI18n: Record<SiteLanguage, SiteCopy> = {
       storyQuote: '你好，我是 Cinna。跟我一起走进云朵猫咪的世界吧～',
       themeCardTitle: 'Cinna Design',
       usage: '使用示例',
-      usageExample: '基础使用',
+      usageExample: '使用',
       viewDocs: '查看组件文档',
     },
     groups: {
