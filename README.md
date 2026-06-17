@@ -17,19 +17,13 @@
   </p>
 
   <p>
-    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.1.0">
-      <img alt="version v0.1.0" src="https://img.shields.io/badge/version-v0.1.0-73C4E0?style=flat-square" />
-    </a>
-    <a href="./LICENSE">
-      <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-F6C96D?style=flat-square" />
-    </a>
+    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.1.0"><img alt="version v0.1.0" src="https://img.shields.io/badge/version-v0.1.0-73C4E0?style=flat-square" /></a>
+    <a href="./LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-F6C96D?style=flat-square" /></a>
     <img alt="React 18" src="https://img.shields.io/badge/React-18-A8DFF1?style=flat-square" />
     <img alt="TypeScript 5.7" src="https://img.shields.io/badge/TypeScript-5.7-3D8EAA?style=flat-square" />
     <img alt="tests passing" src="https://img.shields.io/badge/tests-passing-9BCB8E?style=flat-square" />
     <img alt="70 plus components" src="https://img.shields.io/badge/components-70%2B-B9A7EA?style=flat-square" />
-    <a href="https://icelemon233.github.io/cinna-design/">
-      <img alt="docs on GitHub Pages" src="https://img.shields.io/badge/docs-GitHub%20Pages-46332A?style=flat-square" />
-    </a>
+    <a href="https://icelemon233.github.io/cinna-design/"><img alt="docs on GitHub Pages" src="https://img.shields.io/badge/docs-GitHub%20Pages-46332A?style=flat-square" /></a>
   </p>
 </div>
 
