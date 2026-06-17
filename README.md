@@ -126,6 +126,10 @@ pnpm dev
 
 `v0.1.0` is the first public source release. The package API, visual language, and component coverage are expected to keep evolving while the design system takes shape.
 
+## 🪄 Originality
+
+All content in this repository is independently designed or implemented with AI assistance, including the visual direction, components, documentation copy, and image assets. Cinna Design is not affiliated with, derived from, or intended to reproduce any third-party IP.
+
 ## 📄 License
 
 MIT License. See [LICENSE](./LICENSE).
