@@ -126,9 +126,11 @@ pnpm dev
 
 `v0.1.0` is the first public source release. The package API, visual language, and component coverage are expected to keep evolving while the design system takes shape.
 
-## 🪄 Originality
+## 🪄 Originality & Inspiration
 
-All content in this repository is independently designed or implemented with AI assistance, including the visual direction, components, documentation copy, and image assets. Cinna Design is not affiliated with, derived from, or intended to reproduce any third-party IP.
+All content in this repository is independently designed or implemented with AI assistance, including the visual direction, components, documentation copy, and image assets. Cinna Design does not copy or reproduce third-party content.
+
+Thanks to [animal-island-ui](https://github.com/guokaigdg/animal-island-ui/tree/main) for the creative spark! If you enjoy UI inspired by the style of *Animal Crossing: New Horizons*, that repository is also worth a visit. 🌿
 
 ## 📄 License
 

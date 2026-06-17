@@ -126,9 +126,11 @@ pnpm dev
 
 `v0.1.0` 是第一版公开源码发布。包 API、视觉语言和组件覆盖范围都会随着设计系统继续成型而演进。
 
-## 🪄 原创声明
+## 🪄 原创声明与灵感致谢
 
-本仓库中的所有内容均为独立设计或 AI 辅助实现，包括视觉方向、组件实现、文档文案和图像资产。Cinna Design 与任何第三方 IP 无关联，也不基于或意图复刻任何第三方 IP。
+本仓库中的所有内容均为独立设计或 AI 辅助实现，包括视觉方向、组件实现、文档文案和图像资产。Cinna Design 不复制或复刻任何第三方内容。
+
+感谢 [animal-island-ui](https://github.com/guokaigdg/animal-island-ui/tree/main) 提供的创意！如果你喜欢《Animal Crossing: New Horizons》风格的 UI，也可以访问这个仓库。🌿
 
 ## 📄 License
 
