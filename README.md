@@ -37,9 +37,9 @@
 
 ## Why Cinna Design?
 
-Cinna Design is a React component library with a soft cloud-and-dessert visual identity. It is designed for product interfaces that should feel friendly without losing structure: clear forms, calm data surfaces, gentle feedback, and a small signature mascot world.
+Cinna Design provides a cloud-and-dessert themed set of React UI components and design primitives. It aims to make interface building concise, consistent, and readable: buttons, forms, cards, data displays, feedback, and overlays can be embedded into product pages while keeping a warm visual identity across docs, demos, and apps.
 
-The library is currently in its first public prototype. It is useful as a design-system starting point, a themed component experiment, and a polished foundation for future application components.
+The library is currently at the `v0.1.0` prototype stage, with polished core components, design tokens, original icons, a documentation site, and 70+ lightweight UI prototypes. It is a starting point for design systems, themed component experiments, and future application-grade component coverage.
 
 ## Installation
 
