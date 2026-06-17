@@ -1,0 +1,29 @@
+{
+  "name": "@cinna-design/react",
+  "version": "0.1.0",
+  "description": "Cloud-soft dessert themed React components.",
+  "type": "module",
+  "sideEffects": ["*.css", "dist/*.css"],
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/cjs/index.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": ["dist", "README.md"],
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.build.json --emitDeclarationOnly",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["vite/client"],
+    "paths": {
+      "@cinna-design/react": ["../../packages/react/src/index.ts"]
+    }
+  },
+  "include": ["src", "vite.config.ts"]
+}

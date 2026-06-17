@@ -1,0 +1,53 @@
+:root,
+[data-cinna-theme="cloud"] {
+  --cinna-color-primary: #a8dff1;
+  --cinna-color-primary-hover: #bdeaf7;
+  --cinna-color-primary-active: #73c4e0;
+  --cinna-color-primary-deep: #3d8eaa;
+
+  --cinna-color-bg: #fff8ee;
+  --cinna-color-surface: #fffcf6;
+  --cinna-color-surface-blue: #f0fafe;
+  --cinna-color-text: #46332a;
+  --cinna-color-text-secondary: #7a665b;
+  --cinna-color-text-muted: #a18b7c;
+  --cinna-color-border: #e6d6c4;
+  --cinna-color-border-strong: #d6bfa8;
+
+  --cinna-color-butter: #f6c96d;
+  --cinna-color-strawberry: #ea8a98;
+  --cinna-color-pistachio: #9bcb8e;
+  --cinna-color-lavender: #b9a7ea;
+  --cinna-color-danger: #df6677;
+  --cinna-color-success: #72b866;
+  --cinna-color-warning: #e9a93d;
+
+  --cinna-font-family: Quicksand, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --cinna-font-family-display: Quicksand, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --cinna-font-family-hand: Quicksand, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --cinna-font-size-xs: 12px;
+  --cinna-font-size-sm: 13px;
+  --cinna-font-size-md: 14px;
+  --cinna-font-size-lg: 16px;
+  --cinna-font-size-xl: 20px;
+
+  --cinna-radius-sm: 12px;
+  --cinna-radius-md: 16px;
+  --cinna-radius-lg: 24px;
+  --cinna-radius-pill: 999px;
+
+  --cinna-size-control-sm: 36px;
+  --cinna-size-control-md: 44px;
+  --cinna-size-control-lg: 52px;
+
+  --cinna-shadow-soft: 0 10px 30px rgba(120, 90, 58, 0.1);
+  --cinna-shadow-float: 0 16px 42px rgba(96, 155, 185, 0.18);
+  --cinna-shadow-press: 0 5px 0 #6bbbd7;
+  --cinna-shadow-ring: 0 0 0 4px rgba(168, 223, 241, 0.38);
+
+  --cinna-motion-fast: 120ms;
+  --cinna-motion-base: 180ms;
+  --cinna-motion-slow: 280ms;
+  --cinna-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --cinna-ease-press: cubic-bezier(0.34, 1.56, 0.64, 1);
+}

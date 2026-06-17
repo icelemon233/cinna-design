@@ -1,0 +1,23 @@
+{
+  "name": "@cinna-design/tokens",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Design tokens for Cinna Design.",
+  "type": "module",
+  "sideEffects": ["*.css", "dist/*.css"],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./tokens.css": "./dist/tokens.css"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && mkdir -p dist && cp src/tokens.css dist/tokens.css",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}
