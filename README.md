@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./apps/site/src/assets/cinna-cloud-cat.png" alt="Cinna Design cloud cat mascot" width="220" />
 
-  <h1>Cinna Design</h1>
+  <h1>🌤️ Cinna Design</h1>
 
   <p>
     <strong>Cloud-soft dessert themed React UI components.</strong><br />
@@ -29,13 +29,13 @@
 
 ---
 
-## Why Cinna Design?
+## ✨ Why Cinna Design?
 
 Cinna Design provides a cloud-and-dessert themed set of React UI components and design primitives. It aims to make interface building concise, consistent, and readable: buttons, forms, cards, data displays, feedback, and overlays can be embedded into product pages while keeping a warm visual identity across docs, demos, and apps.
 
 The library is currently at the `v0.1.0` prototype stage, with polished core components, design tokens, original icons, a documentation site, and 70+ lightweight UI prototypes. It is a starting point for design systems, themed component experiments, and future application-grade component coverage.
 
-## Installation
+## 📦 Installation
 
 `@cinna-design/react` is the intended public consumer package. After the package is published, install it with:
 
@@ -49,7 +49,7 @@ Import styles once in your application:
 import '@cinna-design/react/style.css';
 ```
 
-## Quick Usage
+## ⚡ Quick Usage
 
 ```tsx
 import '@cinna-design/react/style.css';
@@ -66,39 +66,39 @@ export function DessertPanel() {
 }
 ```
 
-## What's Included?
+## 🧁 What's Included?
 
-### Polished Core
+### ☁️ Polished Core
 
-- `Button` - soft pressable actions with variants, sizes, icons, shapes, and loading state.
-- `Card` - cream, blue, butter, strawberry, pistachio, and lavender content surfaces.
-- `Input` - labeled input with helper text, error state, prefix, and suffix.
-- `CinnaLoading` - signature cloud loading motion with reduced-motion support.
-- `ConfigProvider` - scoped CSS variable overrides for local theme tuning.
+- 🔘 `Button` - soft pressable actions with variants, sizes, icons, shapes, and loading state.
+- 🍰 `Card` - cream, blue, butter, strawberry, pistachio, and lavender content surfaces.
+- 🧾 `Input` - labeled input with helper text, error state, prefix, and suffix.
+- ☁️ `CinnaLoading` - signature cloud loading motion with reduced-motion support.
+- 🎛️ `ConfigProvider` - scoped CSS variable overrides for local theme tuning.
 
-### Broader Component Coverage
+### 🧩 Broader Component Coverage
 
 Cinna Design also exposes lightweight prototypes for common UI needs:
 
-- Layout: `Space`, `Flex`, `Row`, `Col`, `Layout`
-- Navigation: `Breadcrumb`, `Menu`, `Tabs`, `Steps`, `Pagination`, `Anchor`
-- Data entry: `Select`, `Checkbox`, `Radio`, `Switch`, `Slider`, `Rate`, `DatePicker`, `Upload`, `Form`
-- Data display: `Avatar`, `Badge`, `Tag`, `Table`, `List`, `Timeline`, `Statistic`, `Tree`
-- Feedback and overlays: `Alert`, `Message`, `Notification`, `Progress`, `Skeleton`, `Modal`, `Drawer`, `Tooltip`, `Popover`
+- 🧱 Layout: `Space`, `Flex`, `Row`, `Col`, `Layout`
+- 🧭 Navigation: `Breadcrumb`, `Menu`, `Tabs`, `Steps`, `Pagination`, `Anchor`
+- ✍️ Data entry: `Select`, `Checkbox`, `Radio`, `Switch`, `Slider`, `Rate`, `DatePicker`, `Upload`, `Form`
+- 📊 Data display: `Avatar`, `Badge`, `Tag`, `Table`, `List`, `Timeline`, `Statistic`, `Tree`
+- 💬 Feedback and overlays: `Alert`, `Message`, `Notification`, `Progress`, `Skeleton`, `Modal`, `Drawer`, `Tooltip`, `Popover`
 
-## Design Language
+## 🎨 Design Language
 
 Cinna Design's first visual direction is built around:
 
-- milk-cloud blue as the primary interaction color
-- cream and vanilla surfaces for warmth
-- cocoa text for readable contrast
-- butter, strawberry, pistachio, and lavender accents
-- rounded touch targets and gentle handmade motion
+- 🌤️ milk-cloud blue as the primary interaction color
+- 🍦 cream and vanilla surfaces for warmth
+- 🍫 cocoa text for readable contrast
+- 🍓 butter, strawberry, pistachio, and lavender accents
+- 🫧 rounded touch targets and gentle handmade motion
 
 The goal is not to make every interface decorative. Sweetness should be the accent; clarity should remain the foundation.
 
-## Documentation
+## 📚 Documentation
 
 The documentation site is prepared for GitHub Pages:
 
@@ -112,7 +112,7 @@ Build it locally with:
 pnpm build:pages
 ```
 
-## Local Preview
+## 🛠️ Local Preview
 
 ```bash
 pnpm install
@@ -122,10 +122,10 @@ pnpm build
 pnpm dev
 ```
 
-## Project Status
+## 🚧 Project Status
 
 `v0.1.0` is the first public source release. The package API, visual language, and component coverage are expected to keep evolving while the design system takes shape.
 
-## License
+## 📄 License
 
 MIT License. See [LICENSE](./LICENSE).

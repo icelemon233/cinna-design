@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./apps/site/src/assets/cinna-cloud-cat.png" alt="Cinna Design 云朵小猫 IP" width="220" />
 
-  <h1>Cinna Design</h1>
+  <h1>🌤️ Cinna Design</h1>
 
   <p>
     <strong>云朵甜点风格的 React UI 组件库。</strong><br />
@@ -29,13 +29,13 @@
 
 ---
 
-## 为什么是 Cinna Design？
+## ✨ 为什么是 Cinna Design？
 
 Cinna Design 提供了一套带有「云朵 + 甜点」视觉身份的 React UI 组件和设计基础能力。它希望让界面搭建变得简洁、一致且易于阅读：按钮、表单、卡片、数据展示、反馈和浮层等元素可以轻松嵌入产品页面，也能在文档、演示站点和真实应用中保持统一、温暖的品牌气质。
 
 当前版本处于 `v0.1.0` 原型阶段，已经包含核心组件、设计 tokens、原创图标、文档站点和 70+ 个轻量 UI 原型。它适合作为设计系统起点、主题化组件实验，或后续应用级组件库的基础。
 
-## 安装
+## 📦 安装
 
 `@cinna-design/react` 是面向使用者的公开包名。包发布后，可以这样安装：
 
@@ -49,7 +49,7 @@ pnpm add @cinna-design/react
 import '@cinna-design/react/style.css';
 ```
 
-## 快速使用
+## ⚡ 快速使用
 
 ```tsx
 import '@cinna-design/react/style.css';
@@ -66,39 +66,39 @@ export function DessertPanel() {
 }
 ```
 
-## 包含什么？
+## 🧁 包含什么？
 
-### 重点打磨的核心组件
+### ☁️ 重点打磨的核心组件
 
-- `Button` - 支持变体、尺寸、图标、形状和 loading 状态的柔软按钮。
-- `Card` - 奶油、浅蓝、黄油、草莓、开心果、薰衣草色内容表面。
-- `Input` - 支持 label、helper、error、prefix、suffix 的表单输入。
-- `CinnaLoading` - 带 reduced-motion 支持的标志性云朵加载动效。
-- `ConfigProvider` - 通过局部 CSS 变量覆写做轻量主题调整。
+- 🔘 `Button` - 支持变体、尺寸、图标、形状和 loading 状态的柔软按钮。
+- 🍰 `Card` - 奶油、浅蓝、黄油、草莓、开心果、薰衣草色内容表面。
+- 🧾 `Input` - 支持 label、helper、error、prefix、suffix 的表单输入。
+- ☁️ `CinnaLoading` - 带 reduced-motion 支持的标志性云朵加载动效。
+- 🎛️ `ConfigProvider` - 通过局部 CSS 变量覆写做轻量主题调整。
 
-### 更完整的组件覆盖面
+### 🧩 更完整的组件覆盖面
 
 Cinna Design 还导出了一批轻量原型组件，覆盖常见 UI 场景：
 
-- 布局：`Space`、`Flex`、`Row`、`Col`、`Layout`
-- 导航：`Breadcrumb`、`Menu`、`Tabs`、`Steps`、`Pagination`、`Anchor`
-- 数据录入：`Select`、`Checkbox`、`Radio`、`Switch`、`Slider`、`Rate`、`DatePicker`、`Upload`、`Form`
-- 数据展示：`Avatar`、`Badge`、`Tag`、`Table`、`List`、`Timeline`、`Statistic`、`Tree`
-- 反馈和浮层：`Alert`、`Message`、`Notification`、`Progress`、`Skeleton`、`Modal`、`Drawer`、`Tooltip`、`Popover`
+- 🧱 布局：`Space`、`Flex`、`Row`、`Col`、`Layout`
+- 🧭 导航：`Breadcrumb`、`Menu`、`Tabs`、`Steps`、`Pagination`、`Anchor`
+- ✍️ 数据录入：`Select`、`Checkbox`、`Radio`、`Switch`、`Slider`、`Rate`、`DatePicker`、`Upload`、`Form`
+- 📊 数据展示：`Avatar`、`Badge`、`Tag`、`Table`、`List`、`Timeline`、`Statistic`、`Tree`
+- 💬 反馈和浮层：`Alert`、`Message`、`Notification`、`Progress`、`Skeleton`、`Modal`、`Drawer`、`Tooltip`、`Popover`
 
-## 设计语言
+## 🎨 设计语言
 
 Cinna Design 的第一版视觉方向包括：
 
-- 用 milk-cloud blue 作为主要交互色
-- 用奶油和香草色表面增加温度
-- 用可可色文字保证可读性
-- 用黄油、草莓、开心果、薰衣草色做轻量点缀
-- 用圆润触控区域和轻柔手作动效增强亲和力
+- 🌤️ 用 milk-cloud blue 作为主要交互色
+- 🍦 用奶油和香草色表面增加温度
+- 🍫 用可可色文字保证可读性
+- 🍓 用黄油、草莓、开心果、薰衣草色做轻量点缀
+- 🫧 用圆润触控区域和轻柔手作动效增强亲和力
 
 目标不是让界面变得花哨。甜味是识别点，清晰才是底座。
 
-## 文档
+## 📚 文档
 
 文档站点已准备发布到 GitHub Pages：
 
@@ -112,7 +112,7 @@ https://icelemon233.github.io/cinna-design/
 pnpm build:pages
 ```
 
-## 本地预览
+## 🛠️ 本地预览
 
 ```bash
 pnpm install
@@ -122,10 +122,10 @@ pnpm build
 pnpm dev
 ```
 
-## 项目状态
+## 🚧 项目状态
 
 `v0.1.0` 是第一版公开源码发布。包 API、视觉语言和组件覆盖范围都会随着设计系统继续成型而演进。
 
-## License
+## 📄 License
 
 MIT License. 详见 [LICENSE](./LICENSE)。
