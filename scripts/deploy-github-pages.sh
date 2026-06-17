@@ -20,6 +20,7 @@ fi
 
 pnpm build:pages
 touch "$site_dir/.nojekyll"
+cp "$site_dir/index.html" "$site_dir/404.html"
 
 if ! grep -q '"/cinna-design/assets/' "$site_dir/index.html"; then
   echo "Pages build asset base is not /cinna-design/: $site_dir/index.html" >&2
