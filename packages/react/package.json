@@ -1,6 +1,6 @@
 {
   "name": "@cinna-design/react",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Cloud-soft dessert themed React components.",
   "type": "module",
   "sideEffects": ["*.css", "dist/*.css"],

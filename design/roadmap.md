@@ -6,7 +6,7 @@
 - Button
 - Card
 - Input
-- CinnaLoading
+- Loading
 - Demo homepage
 - Component documentation entry
 
@@ -16,15 +16,16 @@ Inspired by mature application UI libraries, but implemented with Cinna's own vi
 
 - General: Button, Icon, Typography
 - Layout: Space, Divider, Flex, Grid
-- Navigation: Breadcrumb, Dropdown, Menu, Pagination, Steps, Tabs
+- Navigation: Breadcrumb, Menu, Pagination, Steps, Tabs
 - Data Entry: Form, Input, InputNumber, Textarea, Checkbox, Radio, Switch, Select, DatePicker, TimePicker, Slider, Rate, Upload
-- Data Display: Avatar, Badge, Card, Collapse, Empty, Image, List, Popover, Segmented, Statistic, Table, Tag, Timeline, Tooltip
-- Feedback: Alert, Drawer, Message, Modal, Notification, Popconfirm, Progress, Result, Skeleton, Spin
+- Data Display: Avatar, Badge, Card, Collapse, Empty, Image, List, Segmented, Statistic, Table, Tag, Timeline
+- Feedback: Alert, Message, Notification, Progress, Result, Skeleton, Spin
+- Overlay: Drawer, Modal, Popup
 - System: ConfigProvider
 
 ## Signature Dessert Components
 
-- CinnaLoading
+- Loading
 - RecipeCard
 - BakeTimer
 - CookieStamp

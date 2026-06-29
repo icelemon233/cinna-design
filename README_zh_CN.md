@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./apps/site/src/assets/cinna-cloud-cat.png" alt="Cinna Design 云朵小猫 IP" width="220" />
+  <img src="./apps/site/src/assets/cinna-cloud-cat.webp" alt="Cinna Design 云朵小猫 IP" width="220" />
 
   <h1>🌤️ Cinna Design</h1>
 
@@ -13,11 +13,11 @@
     ·
     <a href="https://icelemon233.github.io/cinna-design/">文档站点</a>
     ·
-    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.1.0">v0.1.0 发布页</a>
+    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.2.0">v0.2.0 发布页</a>
   </p>
 
   <p>
-    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.1.0"><img alt="version v0.1.0" src="https://img.shields.io/badge/version-v0.1.0-73C4E0?style=flat-square" /></a>
+    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.2.0"><img alt="version v0.2.0" src="https://img.shields.io/badge/version-v0.2.0-73C4E0?style=flat-square" /></a>
     <a href="./LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-F6C96D?style=flat-square" /></a>
     <img alt="React 18" src="https://img.shields.io/badge/React-18-A8DFF1?style=flat-square" />
     <img alt="TypeScript 5.7" src="https://img.shields.io/badge/TypeScript-5.7-3D8EAA?style=flat-square" />
@@ -33,7 +33,7 @@
 
 Cinna Design 提供了一套带有「云朵 + 甜点」视觉身份的 React UI 组件和设计基础能力。它希望让界面搭建变得简洁、一致且易于阅读：按钮、表单、卡片、数据展示、反馈和浮层等元素可以轻松嵌入产品页面，也能在文档、演示站点和真实应用中保持统一、温暖的品牌气质。
 
-当前版本处于 `v0.1.0` 原型阶段，已经包含核心组件、设计 tokens、原创图标、文档站点和 70+ 个轻量 UI 原型。它适合作为设计系统起点、主题化组件实验，或后续应用级组件库的基础。
+当前版本处于 `v0.2.0` 原型阶段，已经包含核心组件、设计 tokens、原创图标、文档站点和 70+ 个轻量 UI 原型。它适合作为设计系统起点、主题化组件实验，或后续应用级组件库的基础。
 
 ## 📦 安装
 
@@ -53,14 +53,14 @@ import '@cinna-design/react/style.css';
 
 ```tsx
 import '@cinna-design/react/style.css';
-import { Button, Card, CinnaLoading, Input } from '@cinna-design/react';
+import { Button, Card, Input, Loading } from '@cinna-design/react';
 
 export function DessertPanel() {
   return (
     <Card title="Cloud order" tone="blue">
       <Input label="Dessert name" placeholder="Milk cloud cake" />
       <Button style={{ marginTop: 16 }}>Save recipe</Button>
-      <CinnaLoading label="Whisking clouds" />
+      <Loading label="Whisking clouds" />
     </Card>
   );
 }
@@ -73,7 +73,7 @@ export function DessertPanel() {
 - 🔘 `Button` - 支持变体、尺寸、图标、形状和 loading 状态的柔软按钮。
 - 🍰 `Card` - 奶油、浅蓝、黄油、草莓、开心果、薰衣草色内容表面。
 - 🧾 `Input` - 支持 label、helper、error、prefix、suffix 的表单输入。
-- ☁️ `CinnaLoading` - 带 reduced-motion 支持的标志性云朵加载动效。
+- ☁️ `Loading` - 带 reduced-motion 支持的标志性云朵小猫加载动效。
 - 🎛️ `ConfigProvider` - 通过局部 CSS 变量覆写做轻量主题调整。
 
 ### 🧩 更完整的组件覆盖面
@@ -124,7 +124,7 @@ pnpm dev
 
 ## 🚧 项目状态
 
-`v0.1.0` 是第一版公开源码发布。包 API、视觉语言和组件覆盖范围都会随着设计系统继续成型而演进。
+`v0.2.0` 是第二版公开源码发布。包 API、视觉语言和组件覆盖范围都会随着设计系统继续成型而演进。
 
 ## 🪄 原创声明与灵感致谢
 

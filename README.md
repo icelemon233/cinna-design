@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./apps/site/src/assets/cinna-cloud-cat.png" alt="Cinna Design cloud cat mascot" width="220" />
+  <img src="./apps/site/src/assets/cinna-cloud-cat.webp" alt="Cinna Design cloud cat mascot" width="220" />
 
   <h1>🌤️ Cinna Design</h1>
 
@@ -13,11 +13,11 @@
     ·
     <a href="https://icelemon233.github.io/cinna-design/">Docs</a>
     ·
-    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.1.0">Release v0.1.0</a>
+    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.2.0">Release v0.2.0</a>
   </p>
 
   <p>
-    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.1.0"><img alt="version v0.1.0" src="https://img.shields.io/badge/version-v0.1.0-73C4E0?style=flat-square" /></a>
+    <a href="https://github.com/icelemon233/cinna-design/releases/tag/v0.2.0"><img alt="version v0.2.0" src="https://img.shields.io/badge/version-v0.2.0-73C4E0?style=flat-square" /></a>
     <a href="./LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-F6C96D?style=flat-square" /></a>
     <img alt="React 18" src="https://img.shields.io/badge/React-18-A8DFF1?style=flat-square" />
     <img alt="TypeScript 5.7" src="https://img.shields.io/badge/TypeScript-5.7-3D8EAA?style=flat-square" />
@@ -33,7 +33,7 @@
 
 Cinna Design provides a cloud-and-dessert themed set of React UI components and design primitives. It aims to make interface building concise, consistent, and readable: buttons, forms, cards, data displays, feedback, and overlays can be embedded into product pages while keeping a warm visual identity across docs, demos, and apps.
 
-The library is currently at the `v0.1.0` prototype stage, with polished core components, design tokens, original icons, a documentation site, and 70+ lightweight UI prototypes. It is a starting point for design systems, themed component experiments, and future application-grade component coverage.
+The library is currently at the `v0.2.0` prototype stage, with polished core components, design tokens, original icons, a documentation site, and 70+ lightweight UI prototypes. It is a starting point for design systems, themed component experiments, and future application-grade component coverage.
 
 ## 📦 Installation
 
@@ -53,14 +53,14 @@ import '@cinna-design/react/style.css';
 
 ```tsx
 import '@cinna-design/react/style.css';
-import { Button, Card, CinnaLoading, Input } from '@cinna-design/react';
+import { Button, Card, Input, Loading } from '@cinna-design/react';
 
 export function DessertPanel() {
   return (
     <Card title="Cloud order" tone="blue">
       <Input label="Dessert name" placeholder="Milk cloud cake" />
       <Button style={{ marginTop: 16 }}>Save recipe</Button>
-      <CinnaLoading label="Whisking clouds" />
+      <Loading label="Whisking clouds" />
     </Card>
   );
 }
@@ -73,7 +73,7 @@ export function DessertPanel() {
 - 🔘 `Button` - soft pressable actions with variants, sizes, icons, shapes, and loading state.
 - 🍰 `Card` - cream, blue, butter, strawberry, pistachio, and lavender content surfaces.
 - 🧾 `Input` - labeled input with helper text, error state, prefix, and suffix.
-- ☁️ `CinnaLoading` - signature cloud loading motion with reduced-motion support.
+- ☁️ `Loading` - signature cloud cat loading motion with reduced-motion support.
 - 🎛️ `ConfigProvider` - scoped CSS variable overrides for local theme tuning.
 
 ### 🧩 Broader Component Coverage
@@ -124,7 +124,7 @@ pnpm dev
 
 ## 🚧 Project Status
 
-`v0.1.0` is the first public source release. The package API, visual language, and component coverage are expected to keep evolving while the design system takes shape.
+`v0.2.0` is the second public source release. The package API, visual language, and component coverage are expected to keep evolving while the design system takes shape.
 
 ## 🪄 Originality & Inspiration
 

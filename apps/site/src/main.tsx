@@ -2,17 +2,21 @@ import '@fontsource/quicksand/400.css';
 import '@fontsource/quicksand/500.css';
 import '@fontsource/quicksand/600.css';
 import '@fontsource/quicksand/700.css';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 import '@cinna-design/react/style.css';
 import './styles.css';
+import { App } from './App';
+import { startSupabaseKeepAlive } from './services/supabase/keepAlive';
 
-const legacyScriptId = 'cinna-site-app';
-const legacyVersion = import.meta.env.VITE_CINNA_LEGACY_VERSION;
-const legacyVersionQuery = legacyVersion ? `?v=${encodeURIComponent(legacyVersion)}` : '';
+const rootElement = document.getElementById('root');
 
-if (!document.getElementById(legacyScriptId)) {
-  const script = document.createElement('script');
-  script.id = legacyScriptId;
-  script.type = 'module';
-  script.src = `${import.meta.env.BASE_URL}legacy-app.js${legacyVersionQuery}`;
-  document.body.appendChild(script);
+if (rootElement) {
+  createRoot(rootElement).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
 }
+
+startSupabaseKeepAlive();

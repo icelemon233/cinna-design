@@ -28,4 +28,4 @@ Clouds over a dessert counter:
 
 ## First Signature Component
 
-`CinnaLoading` uses floating cloud puffs and tiny sugar sparkles. It should be small enough for application loading states but charming enough to be memorable.
+`Loading` uses the cloud cat mascot, floating cloud motion, and tiny sugar sparkles. It should be small enough for application loading states but charming enough to be memorable.
