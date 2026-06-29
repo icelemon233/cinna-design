@@ -4,8 +4,7 @@
   <h1>🌤️ Cinna Design</h1>
 
   <p>
-    <strong>云朵甜点风格的 React UI 组件库。</strong><br />
-    给温暖、清晰、可落地的应用界面准备的一套柔软组件。
+    <strong>云朵甜点风格的 React UI 组件库。</strong>
   </p>
 
   <p>
